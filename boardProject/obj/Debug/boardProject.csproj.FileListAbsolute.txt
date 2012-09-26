@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2010\Projects\boardProject\boardProject\bin\boardProject.dll
+c:\users\administrator\documents\visual studio 2010\Projects\boardProject\boardProject\bin\boardProject.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\boardProject\boardProject\obj\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\boardProject\boardProject\obj\Debug\boardProject.dll
+c:\users\administrator\documents\visual studio 2010\Projects\boardProject\boardProject\obj\Debug\boardProject.pdb

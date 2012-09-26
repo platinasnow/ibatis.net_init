@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sqlMap namespace="board" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ibatis.apache.org/mapping">
+
+  <alias>
+    <typeAlias alias="BoardClass" type="boardProject.Models.BoardVO"/>
+  </alias>
+
+  <resultMaps>
+    <resultMap id="boardMap" class="BoardClass">
+      <result property="seq" column="seq"/>
+      <result property="boardNum" column="board_num"/>
+      <result property="title" column="title"/>
+      <result property="contents" column="content"/>
+      <result property="writer" column="writer"/>
+      <result property="hit" column="hit"/>
+      <result property="reply" column="reply"/>
+    </resultMap>
+  </resultMaps>
+
+  <statements>
+    
+    <select id="getBoardList" resultMap="boardMap">
+        SELECT * FROM COMBINE_BOARD      
+    </select>
+  </statements>
+
+</sqlMap>
